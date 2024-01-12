@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: blue;
+    margin-left: 42px;
+    margin-right: 42px;
+    background-color: aquamarine;
+}
+
+header h4 {
+    margin-top: 32px;
+    color: aquamarine;
+}
+
+header p {
+    margin-top: 32px;
+    font-size: small;
+    margin-bottom: 15px;
+}
+
+.inputSection {
+    display: flex;
+    flex-direction: column;
+}
+
+#squareSide {
+    margin-top: 10px;
+    outline: none;
+    border-radius: 8px;
+    border: solid black;
+    padding: 5px;
+    animation-name: color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease;
+}
+
+#squareSide:focus {
+    border: solid blue;
+}
+
+button {
+    background-color: beige;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: antiquewhite;
+}
+
+button:active {
+    background-color: aqua;
+    transform: translateY(3px);
+}
+  
+  @keyframes color {
+    0% {
+      background-color: red;
+      }
+  }
