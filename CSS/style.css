@@ -10,10 +10,20 @@ h1{
 h4{
     color: #333;
     text-align: center;
+
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
 }
 
-
-p {
+header {
+    background-color: rgba(0, 128, 0, 0.707);
 }
 
 img {

@@ -9,6 +9,7 @@
 <body>
     <header>
         <h1>Kalkulator Luas dan Keliling Persegi</h1>
+    </header>
         <h4>Welcome to Kalkulator Luas dan Keliling Persegi <br>Web ini digunakan untuk menghitung Luas dan Keliling Persegi dalam rangka menyelesaikan mini project Revou</h4>
         <p>Luas Persegi</p>
         <img src="Kotak.png" alt="Persegi">
@@ -17,13 +18,34 @@
         <p>Di Mana:<br>L=Luas<br>S=Sisi</p>
         <hr>
         <h1>Hitung Luas Persegi</h1>
-    </header>
+
     <form id="calculator-form">
         <input type="number" id="sisi" placeholder="Nilai Sisi" required>
         <button type="submit">Hitung</button>
         <button type="reset">Reset</button>
     </form>
+    <h3>Luas Persegi</h3>
     <h3 id="luas-persegi"></h3>
+    <script src="js/script.js"></script>
+</body>
+<hr>
+<body>
+    <p>Keliling Persegi</p>
+    <img src="Kotak.png" alt="Persegi">
+    <p>Rumus Keliling Persegi</p>
+    <p>K = 4 x S</p>
+    <p>Di Mana:<br>K=Keliling<br>S=Sisi</p>
+    <hr>
+    <h1>Rumus Keliling Persegi</h1>
+    <h3>Keliling = 4 x Sisi</h3>
+    <form id="form">
+        <label for="side">Nilai Sisi</label>
+        <input type="number" id="side" placeholder="Masukkan nilai sisi">
+        <button type="submit">Hitung</button>
+        <button type="reset">Reset</button>
+        </form>
+        <h3>Keliling Persegi</h3>
+        <h3 id="keliling"></h3>
     <script src="js/script.js"></script>
 </body>
 </html>
