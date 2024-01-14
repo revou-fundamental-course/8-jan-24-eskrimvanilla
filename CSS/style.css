@@ -1,14 +1,28 @@
 body {
     font-family: Arial, sans-serif;
+}
+
+h1{
+    color: #333;
     text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h4{
     color: #333;
+    text-align: center;
+}
+
+
+p {
+}
+
+img {
+    width: 100px;
 }
 
 button {
     background-color: #4CAF50;
+    border-radius: 5px;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -25,7 +39,6 @@ button:hover {
 
 button:active {
     background-color: #3e8e41;
-    box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
 
@@ -33,5 +46,5 @@ input[type="number"] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
