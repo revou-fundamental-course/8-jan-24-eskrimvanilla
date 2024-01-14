@@ -1,72 +1,37 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-}
-
-header {
+    font-family: Arial, sans-serif;
     text-align: center;
 }
 
-header h1 {
-    color: blue;
-    margin-left: 42px;
-    margin-right: 42px;
-    background-color: aquamarine;
-}
-
-header h4 {
-    margin-top: 32px;
-    color: aquamarine;
-}
-
-header p {
-    margin-top: 32px;
-    font-size: small;
-    margin-bottom: 15px;
-}
-
-.inputSection {
-    display: flex;
-    flex-direction: column;
-}
-
-#squareSide {
-    margin-top: 10px;
-    outline: none;
-    border-radius: 8px;
-    border: solid black;
-    padding: 5px;
-    animation-name: color;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-    animation-timing-function: ease;
-}
-
-#squareSide:focus {
-    border: solid blue;
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
 }
 
 button {
-    background-color: beige;
-    color: black;
-    border: none;
-    border-radius: 8px;
-    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: antiquewhite;
+    background-color: #45a049;
 }
 
 button:active {
-    background-color: aqua;
-    transform: translateY(3px);
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
-  
-  @keyframes color {
-    0% {
-      background-color: red;
-      }
-  }
+
+input[type="number"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}

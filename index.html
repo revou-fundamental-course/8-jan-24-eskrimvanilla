@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katik</title>
     <link rel="stylesheet" href="css/style.css">
-    <title>Welcome to Katik</title>
 </head>
 <body>
     <header>
@@ -13,15 +13,12 @@
         <p>Web ini digunakan untuk menghitung Luas dan Keliling Persegi dalam rangka menyelesaikan mini project Revou</p>
     
     </header>
-    
-
-<div class="inputSection">
-    <label for="squareSide" id="lblSquareSide">Hitung Luas Persegi</label>
-    <input type="number" id="squareSide">
-</div>
-<div class="buttons">
-    <button id="countButton">Hitung</button>
-    <button id="resetButton">Reset</button>
-</div>
+    <form id="calculator-form">
+        <input type="number" id="sisi" placeholder="Nilai Sisi" required>
+        <button type="submit">Hitung</button>
+        <button type="reset">Reset</button>
+    </form>
+    <h3 id="luas-persegi"></h3>
+    <script src="scripts.js"></script>
 </body>
 </html>
