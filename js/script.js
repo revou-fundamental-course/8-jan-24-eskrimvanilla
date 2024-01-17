@@ -10,7 +10,7 @@ document.getElementById('calculator-form').addEventListener('submit', function(e
 
     //put in html by assigning it to luas-persegi id using innerHTML
     document.getElementById('luas-persegi').innerHTML = 
-    'L = S x S <br> L = ' + sisi + 'x' + sisi + '<br> L = ' + luasPersegi
+    'Luas Persegi <br> L = S x S <br> L = ' + sisi + 'x' + sisi + '<br> L = ' + luasPersegi
 });
 
 //get html element from form id, listens to submit, and runs the script
@@ -25,5 +25,15 @@ document.getElementById('form').addEventListener('submit', function(event) {
 
     //put in html by assigning it to keliling id using innerHTML
     document.getElementById('keliling').innerHTML = 
-    'K = 4 x S <br> K = 4 x' + sisi + '<br> K = ' + kelPersegi
+    'Keliling Persegi <br> K = 4 x S <br> K = 4 x' + sisi + '<br> K = ' + kelPersegi
+});
+
+document.getElementById('calculator-form').addEventListener('reset', function() {
+    //reset result
+    document.getElementById('luas-persegi').innerHTML = '';
+});
+
+document.getElementById('form').addEventListener('reset', function() {
+    //reset result
+    document.getElementById('keliling').innerHTML = '';
 });
